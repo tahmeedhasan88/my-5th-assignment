@@ -131,3 +131,48 @@ document.getElementById("clear-btn").addEventListener("click",
         document.getElementById("call-history").innerHTML="";
     }
 )
+
+
+
+
+
+
+
+document.getElementById("ecopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
+
+
+document.getElementById("pcopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("police-number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
+
+
+
+
+
+  
+    
+     
