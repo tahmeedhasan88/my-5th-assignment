@@ -137,7 +137,7 @@ document.getElementById("clear-btn").addEventListener("click",
 
 
 
-
+// Copy part section
 document.getElementById("ecopy-btn").addEventListener("click", 
     function(){
         
@@ -166,6 +166,109 @@ document.getElementById("pcopy-btn").addEventListener("click",
         document.getElementById("copy-count").innerText= count;
     }
 )
+
+
+document.getElementById("fcopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("fire-number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
+document.getElementById("acopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("ambulance-number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
+document.getElementById("wcopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("women-number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
+
+document.getElementById("ccopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("corruption-number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
+
+document.getElementById("elecopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("electricity-number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
+
+document.getElementById("bcopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("brac-number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
+document.getElementById("rcopy-btn").addEventListener("click", 
+    function(){
+        
+        let numbers= parseInt(document.getElementById("railway-number").innerText)     
+        navigator.clipboard.writeText(numbers)
+        alert("Number copied to clipboard!")
+
+        const counter= parseInt(document.getElementById("copy-count").innerText)
+        let count=counter+1;
+        document.getElementById("copy-count").innerText= count;
+    }
+)
+
+
 
 
 
