@@ -107,11 +107,10 @@ callButtons.forEach(buttonId => {
 
       const item = document.createElement("div");
       item.className = "call-item bg-gray-200 p-2 rounded-xl mb-2 mt-2";
-      item.innerHTML = `
-        <strong class="mr-5 ml-1">${name}</strong> 
+      item.innerHTML = 
+      `<strong class="mr-5 ml-1">${name}</strong> 
         <span>${time}</span><br>
-        <small class="ml-1">${phone}</small>
-      `;
+        <small class="ml-1">${phone}</small>`;
 
       callHistory.appendChild(item);
 
