@@ -116,7 +116,7 @@ callButtons.forEach(buttonId => {
 
       alert(`📞 Calling ${name} (${phone})`);
     } else {
-      alert("You have not enough coin for call");
+      alert("\u26A0You have not enough coin for call");
     }
   });
 });
